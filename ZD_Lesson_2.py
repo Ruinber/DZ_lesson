@@ -8,14 +8,14 @@
 # day = date_birth // 1000000
 # print(day, month, year, sep='.')
 
-#Задача №1
+# Задача №1
 
 # anna = 2
 # pol = 5
 # print("Яблок у Анны:", anna, "Яблок у Пола:", pol)
 
 
-#Задача №2
+# Задача №2
 
 # edge = int(input())
 # volume = edge ** 3
@@ -31,11 +31,3 @@ crawl_forward = int(input("Проползает за день: "))
 crawl_back = int(input("Опускается за ночь: "))
 days = (int(1 + (height_tree - crawl_back - 1) / (crawl_forward - crawl_back)))
 print(days)
-
-
-
-
-
-
-
-
