@@ -103,7 +103,19 @@ for i in range(10):
     lem +=1
 
 def spisok_10(spisok):
-    usl_1 = spisok.reverse()
+    print(spisok.reverse())
+    print(spisok[::-1])
+    print(spisok[::])
+    print(spisok[2:7])
+    del spisok[5]
+    print(spisok)
+
+    for i in spisok:
+        a = 0
+
+
+
+
     numbers = []
     letters = []
     for i in spisok:
